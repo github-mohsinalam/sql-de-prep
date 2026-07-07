@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Postgres/Docker
+postgres-setup/pgdata/
+
+# Local env files
+.env
