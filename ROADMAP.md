@@ -31,13 +31,13 @@ Each phase has: **concepts to (re)learn**, **hands-on practice**, **LeetCode/pra
 **Concepts:** SELECT/WHERE/ORDER BY/LIMIT, filtering (IN, BETWEEN, LIKE, NULL handling), basic aggregate functions (COUNT, SUM, AVG, MIN, MAX), GROUP BY/HAVING, DISTINCT.
 
 **Practice (LeetCode SQL 50 — "Select" & "Basic Joins" intro problems):**
-- 176. Second Highest Salary
-- 181. Employees Earning More Than Their Managers
-- 182. Duplicate Emails
-- 183. Customers Who Never Order
-- 595. Big Countries
-- 620. Not Boring Movies
-- 1873. Calculate Special Bonus
+- 176.Second Highest Salary 
+- 181.Employees Earning More Than Their Managers 
+- 182.Duplicate Emails 
+- 183.Customers Who Never Order 
+- 595.Big Countries 
+- 620.Not Boring Movies 
+- 1873.Calculate Special Bonus 
 
 **Time:** ~4–5 days (this should feel fast — it's a refresher)
 
@@ -48,15 +48,15 @@ Each phase has: **concepts to (re)learn**, **hands-on practice**, **LeetCode/pra
 **Concepts:** INNER/LEFT/RIGHT/FULL/CROSS/SELF joins, anti-joins (NOT EXISTS/LEFT JOIN...IS NULL pattern), UNION/UNION ALL/INTERSECT/EXCEPT, multi-table joins.
 
 **Practice:**
-- 175. Combine Two Tables
-- 197. Rising Temperature
-- 577. Employee Bonus
-- 584. Find Customer Referee
-- 1068. Product Sales Analysis I
-- 1084. Sales Analysis III
-- 1795. Rearrange Products Table
-- 1581. Customer Who Visited but Did Not Make Any Transactions (anti-join pattern — very common interview ask)
-- 1097. Game Play Analysis (I–V, pick a few)
+- 175.Combine Two Tables 
+- 197.Rising Temperature 
+- 577.Employee Bonus 
+- 584.Find Customer Referee 
+- 1068.Product Sales Analysis I 
+- 1084.Sales Analysis III 
+- 1795.Rearrange Products Table 
+- 1581.Customer Who Visited but Did Not Make Any Transactions (anti-join pattern — very common interview ask) 
+- 1097.Game Play Analysis (I–V, pick a few) 
 
 **Time:** ~5–6 days
 
@@ -67,12 +67,12 @@ Each phase has: **concepts to (re)learn**, **hands-on practice**, **LeetCode/pra
 **Concepts:** Correlated vs non-correlated subqueries, subqueries in SELECT/WHERE/FROM, HAVING vs WHERE nuances, GROUP BY with multiple columns, ROLLUP/CUBE (if your DB supports it).
 
 **Practice:**
-- 626. Exchange Seats
-- 1050. Actors and Directors Who Cooperated at Least Three Times
-- 1633. Percentage of Users Attended a Contest
-- 1341. Movie Rating
-- 570. Managers with at Least 5 Direct Reports
-- 1729. Find Followers Count
+- 626.Exchange Seats 
+- 1050.Actors and Directors Who Cooperated at Least Three Times 
+- 1633.Percentage of Users Attended a Contest 
+- 1341.Movie Rating 
+- 570.Managers with at Least 5 Direct Reports 
+- 1729.Find Followers Count 
 
 **Time:** ~4–5 days
 
@@ -85,16 +85,16 @@ This is the single highest-leverage topic for both LeetCode-style interviews and
 **Concepts:** ROW_NUMBER, RANK, DENSE_RANK, NTILE, LAG/LEAD, FIRST_VALUE/LAST_VALUE, running totals (SUM/AVG OVER), frame clauses (ROWS/RANGE BETWEEN), PARTITION BY nuances, deduplication patterns, gaps-and-islands problems.
 
 **Practice:**
-- 177. Nth Highest Salary
-- 178. Rank Scores
-- 184. Department Highest Salary
-- 185. Department Top Three Salaries (classic hard window-function question — expect this or a variant in senior interviews)
-- 1069. Product Sales Analysis II
-- 1907. Count Salary Categories
-- 2004. The Number of Seniors and Juniors to Join the Company
-- 1454. Active Users
-- 1077. Project Employees III
-- 1596. The Most Frequently Ordered Products for Each Customer
+- 177.Nth Highest Salary 
+- 178.Rank Scores 
+- 184.Department Highest Salary 
+- 185.Department Top Three Salaries (classic hard window-function question — expect this or a variant in senior interviews) 
+- 1069.Product Sales Analysis II 
+- 1907.Count Salary Categories 
+- 2004.The Number of Seniors and Juniors to Join the Company 
+- 1454.Active Users 
+- 1077.Project Employees III 
+- 1596.The Most Frequently Ordered Products for Each Customer 
 - StrataScratch: search "running total," "consecutive days," "gaps and islands" — these show up often at DE-heavy companies (Amazon, Uber, Airbnb)
 
 **Time:** ~8–10 days (don't rush this — it's the topic most likely to separate mid from senior candidates)
@@ -106,10 +106,10 @@ This is the single highest-leverage topic for both LeetCode-style interviews and
 **Concepts:** WITH clauses, chaining multiple CTEs, recursive CTEs (hierarchies, org charts, date series generation), when to use CTE vs subquery vs temp table.
 
 **Practice:**
-- 262. Trips and Users
+- 262.Trips and Users 
 - 1provide: 1264/1270 style hierarchy problems (search "employee hierarchy" on LeetCode/StrataScratch)
 - Build a recursive CTE yourself: generate a date series for the last 30 days (extremely common real-world DE pattern, also occasionally asked directly)
-- 1204. Last Person to Fit in the Bus (running total + CTE)
+- 1204.Last Person to Fit in the Bus (running total + CTE) 
 
 **Time:** ~4–5 days
 
@@ -120,10 +120,10 @@ This is the single highest-leverage topic for both LeetCode-style interviews and
 **Concepts:** CASE WHEN (including pivot-style aggregation), date/time functions (DATEDIFF, DATE_TRUNC, EXTRACT), string functions (SUBSTRING, CONCAT, SPLIT, REGEXP), NULL-safe comparisons (COALESCE, NULLIF).
 
 **Practice:**
-- 1179. Reformat Department Table (pivot pattern)
-- 1211. Queries Quality and Percentage
-- 1327. List the Products Ordered in a Period
-- 1683. Invalid Tweets
+- 1179.Reformat Department Table (pivot pattern) 
+- 1211.Queries Quality and Percentage 
+- 1327.List the Products Ordered in a Period 
+- 1683.Invalid Tweets 
 - 176-series date problems: 1965, 2356 (search "date" tag on LeetCode SQL)
 - Practice writing one pivot query and one unpivot query manually (very commonly asked to "explain how you'd do this without PIVOT")
 
@@ -245,10 +245,3 @@ Senior interviews weight *how* you talk through a query as much as the answer.
 
 ---
 
-## Notes for the Claude Project
-
-When you set up the Project, useful standing chats might be:
-1. **Concept explainer** — deep dives on each phase's topics, calibrated to your DE background
-2. **Problem review** — paste your LeetCode/StrataScratch attempts for feedback on correctness *and* style/performance
-3. **Mock interview partner** — verbal walk-throughs, follow-up questions like a real interviewer would ask
-4. **Progress tracker** — log what's done, get spaced-repetition review suggestions on weak topics
