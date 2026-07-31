@@ -1,6 +1,6 @@
 # phase-01-foundations: Foundations Refresher
 
-- **notes.md** — concept explanations from the Claude Project chat for this phase
+- **notes/** — concept explanations for this phase
 - **problems/** — solved practice problems (LeetCode / StrataScratch), one .sql file per problem
 
 ## Problem naming convention
