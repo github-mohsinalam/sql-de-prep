@@ -20,7 +20,7 @@ Notes are in [`notes/`](./notes), one file per concept, cross-linked in order.
 ## Problems
 
 Statements consolidated in [`problems/problems.md`](./problems/problems.md);
-solutions in [`problems/solutions/`](./solutions), one `.sql` per
+solutions in [`solutions/`](./solutions), one `.sql` per
 problem. All 7 accepted on LeetCode.
 
 | # | Problem | Difficulty | Pattern |
