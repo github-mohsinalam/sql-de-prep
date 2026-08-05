@@ -6,13 +6,13 @@ problem.
 
 | # | Problem | Difficulty | Pattern | Solution |
 |---|---|---|---|---|
-| 595 | Big Countries | Easy | `WHERE` / `OR` | [sql](./solutions/595-big-countries.sql) |
-| 620 | Not Boring Movies | Easy | `WHERE` + modulo, NULL-safe compare | [sql](./solutions/620-not-boring-movies.sql) |
-| 1873 | Calculate Special Bonus | Easy | `CASE`, sargable `LIKE` | [sql](./solutions/1873-calculate-special-bonus.sql) |
-| 182 | Duplicate Emails | Easy | `GROUP BY … HAVING` | [sql](./solutions/182-duplicate-emails.sql) |
-| 183 | Customers Who Never Order | Easy | anti-join (`NOT EXISTS`) | [sql](./solutions/183-customers-who-never-order.sql) |
-| 181 | Employees Earning More Than Their Managers | Easy | self-join | [sql](./solutions/181-employees-earning-more-than-managers.sql) |
-| 176 | Second Highest Salary | Medium | scalar subquery → NULL on empty | [sql](./solutions/176-second-highest-salary.sql) |
+| 595 | Big Countries | Easy | `WHERE` / `OR` | [sql](../solutions/595-big-countries.sql) |
+| 620 | Not Boring Movies | Easy | `WHERE` + modulo, NULL-safe compare | [sql](../solutions/620-not-boring-movies.sql) |
+| 1873 | Calculate Special Bonus | Easy | `CASE`, sargable `LIKE` | [sql](../solutions/1873-calculate-special-bonus.sql) |
+| 182 | Duplicate Emails | Easy | `GROUP BY … HAVING` | [sql](../solutions/182-duplicate-emails.sql) |
+| 183 | Customers Who Never Order | Easy | anti-join (`NOT EXISTS`) | [sql](../solutions/183-customers-who-never-order.sql) |
+| 181 | Employees Earning More Than Their Managers | Easy | self-join | [sql](../solutions/181-employees-earning-more-than-managers.sql) |
+| 176 | Second Highest Salary | Medium | scalar subquery → NULL on empty | [sql](../solutions/176-second-highest-salary.sql) |
 
 ---
 
