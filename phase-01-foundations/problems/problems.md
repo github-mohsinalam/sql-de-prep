@@ -1,7 +1,7 @@
 # Phase 1 — Practice Problems
 
 LeetCode SQL 50 (Select + intro). Listed in the order solved (easy → tricky),
-not numeric order. Solutions in [`solutions/`](./solutions), one file per
+not numeric order. Solutions in [`solutions/`](../solutions), one file per
 problem.
 
 | # | Problem | Difficulty | Pattern | Solution |
